@@ -28,16 +28,11 @@ Yazid Mouline and Jérémy Perez from Télécom Paris.
 
 #### A.4 Ontology URL
 
-|  | Specification |
-|---|---|
-| **Description:** | The web location where the ontology file is available. |
-| **Importance:** | MUST |
-| **Example:** | http://www.berkeleybop.org/ontologies/doid.owl |
-----
+https://github.com/yazidmouline/OntologyProject/TreePlannerOntology.owl
 
 #### A.5 Ontology repository
 
-https://github.com/yazidmouline/OntologyProject/edit/main/README.md
+https://github.com/yazidmouline/OntologyProject
 
 #### A.6 Methodological framework
 
@@ -125,21 +120,7 @@ The relationships used are mainly of sublcasses. We then created properties betw
 
 #### E.10 Axiom patterns 
 
-|  | Specification |
-|---|---|
-| **Description:** | An axiom pattern is a regular design of axioms or a template for axioms used to represent a category of entities or common aspects of a variety of types of entities. An axiom pattern may comprise both asserted and inferred axioms. The aim of a pattern is to achieve a consistent style of representation. An important family of axiom patterns are Ontology Design pattern (ODP) which are commonly used solutions for issues in representation.  |
-| **Importance:** | MUST |
-| **Example:** | The axiom patterns described in the Section "The Ontology"  for the Software Ontology in its JBMS paper (http://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-5-25). Patterns can be presented as examples or in the form of axiom templates, such as a reference to an ontology design pattern (http://ontologydesignpatterns.org/wiki/Main_Page). |
-----
-
-#### E.11 Dereferenceable IRIs 
-
-|  | Specification |
-|---|---|
-| **Description:** | State whether or not the IRI used are dereferencable to a Web resource. Provide any standard prefix (CURIE). |
-| **Importance:** | SHOULD |
-| **Example:** | For example, http://purl.obolibrary.org/obo/GO_0006915 |
-----
+To fill out the subclasses of PotentialUSe, we wrote axioms based on properties. Using the reasoner, it filled out these classes accordingly. More details in the pdf report.
 
 ## F. Managing Change
 
