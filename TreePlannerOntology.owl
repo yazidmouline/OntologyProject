@@ -1,0 +1,2329 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#"
+     xml:base="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology">
+        <rdfs:comment>This ontology aims to help urban planners to choose the right trees in the urban landscapes.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LeafType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ArizonaCypress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ArizonaCypress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cypress"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Attribute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Attribute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BirdCherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BirdCherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cherry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BlackPine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BlackPine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Pine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LeafType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CaucasianMaples -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CaucasianMaples">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Maples"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cedar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cedar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Coastal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Coastal">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Columnar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Columnar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LeafType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CorkOak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CorkOak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Oak"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Morphology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cypress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cypress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#EnvironmentalTolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#EnvironmentalTolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FieldMaples -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FieldMaples">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Maples"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#OrnamentalQualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#OrnamentalQualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#HimalayanCedar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#HimalayanCedar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cedar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToDrought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToDrought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCedar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCedar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cedar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cherry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Obovoid"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LeafType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LeafType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#OrnamentalQualities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LebanaonCedar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LebanaonCedar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cedar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Magnolia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Magnolia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Maples -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Maples">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MaritimPine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MaritimPine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Pine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MediterraneanCypress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MediterraneanCypress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cypress"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Columnar"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Morphology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Morphology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Oak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Oak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Obovoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Obovoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Olive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Olive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Open -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Open">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#OrnamentalQualities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#OrnamentalQualities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Attribute"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToWaterLogging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToWaterLogging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Paved -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Paved">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PinOak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PinOak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Oak"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Pine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Pine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Evergreen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SaucerMagnolia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SaucerMagnolia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Magnolia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Morphology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Morphology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SmallGarden -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SmallGarden">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StarMagnolia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StarMagnolia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Magnolia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StonePine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StonePine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Pine"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SugarMaples -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SugarMaples">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Maples"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SustainableDrainageSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SustainableDrainageSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SwampCypress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SwampCypress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Deciduous"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Winter"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conifer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#EnvironmentalTolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#EnvironmentalTolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#EnvironmentalTolerance"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToShade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToShade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToWaterLogging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToWaterLogging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TransportCorridor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TransportCorridor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PotentialUse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Tree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TurkeyOak -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TurkeyOak">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Oak"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#VaseShaped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#VaseShaped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Weeping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Weeping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Winter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Winter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FloweringTime"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FruitingTime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YoshinoCherry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YoshinoCherry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Cherry"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Obovoid"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YulanMagnolia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YulanMagnolia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Magnolia"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasCrownDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFloweringTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasFruitingTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasLeafType"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Broadleaved"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasShape"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasSize"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToDrought"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToDrought"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToShade"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#hasToleranceToWaterLogging"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ArizonaCypress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MediterraneanCypress"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SwampCypress"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BirdCherry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCherry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YoshinoCherry"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#BlackPine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#MaritimPine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StonePine"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CaucasianMaples"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#FieldMaples"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SugarMaples"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Columnar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Conical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Globular"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Irregular"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Obovoid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Ovoid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#VaseShaped"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Weeping"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CorkOak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PinOak"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TurkeyOak"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#CrownDensity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Shape"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Size"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Dense"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Moderate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Open"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Fall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Spring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Summer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Winter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#HimalayanCedar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#JapaneseCedar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#LebanaonCedar"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToShade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToShade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToShade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToShade"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#IntolerantToWaterLogging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ModeratelyTolerantToWaterLogging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#PartiallyTolerantToWaterLogging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#TolerantToWaterLogging"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Large"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Massive"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Medium"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#Small"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#SaucerMagnolia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#StarMagnolia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#YulanMagnolia"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToDrought"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToShade"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/jeremyperez/ontologies/2020/10/TreePlannerOntology#ToWaterLogging"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
